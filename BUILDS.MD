@@ -13,3 +13,7 @@ Having in seen that this file will exists only on  branch, it doesn't need to be
 ## :bug:FIX: Fix wrong index page title (4bcde1d).
 This is an example of description
 
+
+## :rocket:FEATURE: Cretees a div for body (bc00032).
+This commit is creating a simple text 'Wee' on body section
+
