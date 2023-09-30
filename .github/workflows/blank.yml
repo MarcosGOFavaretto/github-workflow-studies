@@ -32,6 +32,8 @@ jobs:
 
       - name: Populating BUILDS.MD file
         run: |        
+          git fetch;
+
           # Getting the commit description.
           COMMIT_HASH=$(git rev-parse --short HEAD);
           COMMIT_TITLE=$(git log -n 1 --pretty=format:'%s');
