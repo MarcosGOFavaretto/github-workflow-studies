@@ -25,18 +25,13 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-      - name: setting git data
+      - name: Setting git data
         run: |
           git config user.name "Clerk"
-          git config user.email "marcosgofavaretto@users.noreply.github.com"
+          git config user.email "<>"
 
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          # Getting the updated code.
-          git checkout main;
-          git pull;
-          
+      - name: Populating BUILDS.MD file
+        run: |        
           # Getting the commit description.
           COMMIT_HASH=$(git rev-parse --short HEAD);
           COMMIT_TITLE=$(git log -n 1 --pretty=format:'%s');
