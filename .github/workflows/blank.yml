@@ -54,3 +54,4 @@ jobs:
           # Saving the modification.
           git add BUILDS.MD;
           git commit -m ":books:DOCS: Saves message of commit $COMMIT_HASH on BUILDS file";
+          git push;
