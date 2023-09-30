@@ -9,3 +9,7 @@ Having in seen that this file will exists only on  branch, it doesn't need to be
 ## :bricks:CI: Adds 'fetch' command to actions (cfdb5ce).
 
 
+
+## :bug:FIX: Fix wrong index page title (4bcde1d).
+This is an example of description
+
